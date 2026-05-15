@@ -19,6 +19,7 @@ namespace DebuggingProj
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
